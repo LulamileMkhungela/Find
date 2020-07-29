@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    default colors-->
+    <color name="colorPrimary">#35495e</color>
+    <color name="colorPrimaryDark">#1c2737</color>
+    <color name="colorAccent">#42B883</color>
+    <color name="appBackgroundColor">#d4e9fc</color>
+    <color name="appColor2">#f8f8f8</color>
+
+    <!--    welcome layout dots colors-->
+    <color name="dot_inactive_screen1">#808080</color>
+    <color name="dot_inactive_screen2">#808080</color>
+    <color name="dot_inactive_screen3">#808080</color>
+
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#f7f7fc</color>
+    <color name="dot_active_screen2">#f7f7fc</color>
+    <color name="dot_active_screen3">#f7f7fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+    </array>
+    <attr name="materialButtonStyle" format="reference" />
+    <attr name="materialCardViewStyle" format="reference" />
+    <attr name="textInputStyle" format="reference" />
+
+    <!--    icons colors-->
+    <color name="iconsborderColor">#FF2E7979</color>
+    <color name="colorAccents">#96ffffff</color>
+    <color name="buttonsigninColor">#35495e</color>
+    <color name="textColor">#414141</color>
+    <color name="dummyColor">#f5f5f5</color>
+    <color name="login_form_details_light">#1affffff</color>
+    <color name="gray">#8B8B8B</color>
+    <color name="white">#ffffff</color>
+    <color name="lightGray">#F8F8F8</color>
+    <color name="black">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+</resources>

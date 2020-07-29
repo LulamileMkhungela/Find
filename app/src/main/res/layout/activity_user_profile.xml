@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d4e9fc"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_back_button_"
+                android:layout_width="38dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:elevation="8dp"
+                android:padding="-8dp"
+                android:paddingTop="6dp"
+                android:tint="@color/colorPrimaryDark"
+                app:srcCompat="@drawable/arrow_left_circle"
+                app:tint="@color/colorPrimaryDark"
+                tools:ignore="ContentDescription,MissingConstraints,UnusedAttribute" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:elevation="3.5dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/default_profile_cover"
+                tools:ignore="ContentDescription,MissingConstraints,UnusedAttribute" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_other_users_photo_profile"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:elevation="4dp"
+                android:src="@drawable/default_pic"
+                app:civ_border_width="3.5dp"
+                app:civ_border_color="@color/gray"
+                tools:targetApi="lollipop" />
+
+            <TextView
+                android:id="@+id/txt_username_profile_other_users"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_other_users_photo_profile"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/gotham"
+                android:gravity="center_horizontal"
+                android:text="@string/profile_loading"
+                android:textColor="@color/textColor"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/layout_buttons__other_users"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_username_profile_other_users"
+                android:layout_marginTop="28dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_username_profile_other_users">
+
+                <LinearLayout
+                    android:id="@+id/edit_layout_profile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/img_ic_edit_profile_others_profile"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:drawableTint="@color/colorPrimaryDark"
+                        android:elevation="4dp"
+                        android:tint="@color/textColor"
+                        app:srcCompat="@drawable/account_edit_outline"
+                        tools:ignore="ContentDescription,UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/gotham"
+                        android:gravity="center_horizontal"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="@id/img_ic_edit_profile_others_profile"
+                        app:layout_constraintStart_toStartOf="@id/img_ic_edit_profile_others_profile"
+                        android:text="@string/profile_edit_profile"
+                        app:layout_constraintTop_toBottomOf="@id/img_ic_edit_profile_others_profile" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:drawableTint="@color/colorPrimaryDark"
+                        android:elevation="4dp"
+                        android:tint="@color/textColor"
+                        app:srcCompat="@drawable/ic_filter_9_plus_black_24dp"
+                        tools:ignore="ContentDescription,UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/gotham"
+                        android:gravity="center"
+                        android:text="@string/profile_my_posts"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:drawableTint="@color/colorPrimaryDark"
+                        android:elevation="4dp"
+                        android:tint="@color/textColor"
+                        app:srcCompat="@drawable/ic_save_black_24dp"
+                        tools:ignore="ContentDescription,UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/gotham"
+                        android:gravity="center"
+                        android:text="@string/profile_saved_posts"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/chat_layout__other_users"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="visible"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:drawableTint="@color/colorPrimaryDark"
+                        android:elevation="4dp"
+                        android:tint="@color/textColor"
+
+                        app:srcCompat="@drawable/email_edit_outline"
+                        tools:ignore="ContentDescription,UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/gotham"
+                        android:gravity="center"
+                        android:text="@string/profile_chat"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progress_bar_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_buttons__other_users"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="22dp"
+                android:elevation="12dp"
+                android:indeterminateTint="@color/colorPrimaryDark"
+                tools:ignore="UnusedAttribute" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_buttons__other_users"
+                android:layout_margin="10dp"
+                android:background="?selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/transparent"
+                app:cardCornerRadius="4dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/Base.TextAppearance.AppCompat.Title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/gotham"
+                        android:gravity="center_horizontal"
+                        android:text="@string/profile_account_details"
+                        android:textColor="@color/textColor"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/email_other_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/txt_email_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:drawableStart="@drawable/at"
+                            android:drawableLeft="@drawable/at"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/colorPrimaryDark"
+                            android:fontFamily="@font/gotham"
+                            android:gravity="center_vertical"
+                            android:text="@string/profile_email_address"
+                            android:textColor="@color/textColor"
+                            android:tint="@color/textColor"
+                            tools:ignore="UnusedAttribute" />
+
+                        <TextView
+                            android:id="@+id/txt_location_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:drawableStart="@drawable/map_marker_radius"
+                            android:drawableLeft="@drawable/map_marker_radius"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/colorPrimaryDark"
+                            android:fontFamily="@font/gotham"
+                            android:gravity="center_vertical"
+                            android:text="@string/profile_load"
+                            android:textColor="@color/textColor"
+                            android:tint="@color/textColor"
+                            tools:ignore="UnusedAttribute" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_layout_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-16dp"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:id="@+id/txt_date_of_birth_profile_other_users"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:drawableStart="@drawable/calendar_clock"
+                            android:drawableLeft="@drawable/calendar_clock"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/colorPrimaryDark"
+                            android:fontFamily="@font/gotham"
+                            android:gravity="center_vertical"
+                            android:text="@string/profile_date_of_birth"
+                            android:textColor="@color/textColor"
+                            android:tint="@color/textColor"
+                            tools:ignore="UnusedAttribute" />
+
+                        <TextView
+                            android:id="@+id/txt_gender_profile_other_users"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:drawableStart="@drawable/gender_male_female"
+                            android:drawableLeft="@drawable/gender_male_female"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/colorPrimaryDark"
+                            android:fontFamily="@font/gotham"
+                            android:gravity="center_vertical"
+                            android:text="@string/profile_gender"
+                            android:textColor="@color/textColor"
+                            android:tint="@color/textColor"
+                            tools:ignore="UnusedAttribute" />
+
+                        <TextView
+                            android:id="@+id/txt_cell_number_other_users"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:drawableStart="@drawable/cellphone_basic"
+                            android:drawableLeft="@drawable/cellphone_basic"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/colorPrimaryDark"
+                            android:fontFamily="@font/gotham"
+                            android:gravity="center_vertical"
+                            android:text="@string/profile_cell_number"
+                            android:textColor="@color/textColor"
+                            android:tint="@color/textColor"
+                            tools:ignore="UnusedAttribute" />
+
+                        <TextView
+                            android:id="@+id/txt_email_other_users"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:drawableStart="@drawable/at"
+                            android:drawableLeft="@drawable/at"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/colorPrimaryDark"
+                            android:fontFamily="@font/gotham"
+                            android:gravity="center_vertical"
+                            android:text="@string/profile_email"
+                            android:textColor="@color/textColor"
+                            android:tint="@color/textColor"
+                            tools:ignore="UnusedAttribute" />
+
+                        <TextView
+                            android:id="@+id/txt_location_other_users"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:drawableStart="@drawable/map_marker_radius"
+                            android:drawableLeft="@drawable/map_marker_radius"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/colorPrimaryDark"
+                            android:fontFamily="@font/gotham"
+                            android:gravity="center_vertical"
+                            android:text="@string/profile_location"
+                            android:textColor="@color/textColor"
+                            android:tint="@color/textColor"
+                            tools:ignore="UnusedAttribute" />
+
+                        <TextView
+                            android:id="@+id/txt_invite_friend_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:drawableStart="@drawable/share_variant"
+                            android:drawableLeft="@drawable/share_variant"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/colorPrimaryDark"
+                            android:fontFamily="@font/gotham"
+                            android:gravity="center_vertical"
+                            android:text="@string/profile_invite_friends"
+                            android:textColor="@color/textColor"
+                            android:tint="@color/textColor"
+                            tools:ignore="UnusedAttribute" />
+
+                        <TextView
+                            android:id="@+id/txt_faqs_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:drawableStart="@drawable/information_outline"
+                            android:drawableLeft="@drawable/information_outline"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/colorPrimaryDark"
+                            android:fontFamily="@font/gotham"
+                            android:gravity="center_vertical"
+                            android:text="@string/profile_faqs"
+                            android:textColor="@color/textColor"
+                            android:tint="@color/textColor"
+                            tools:ignore="UnusedAttribute" />
+
+                        <TextView
+                            android:id="@+id/txt_settings_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:drawableStart="@drawable/settings_outline"
+                            android:drawableLeft="@drawable/settings_outline"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/colorPrimaryDark"
+                            android:fontFamily="@font/gotham"
+                            android:gravity="center_vertical"
+                            android:text="@string/profile_settings"
+                            android:textColor="@color/textColor"
+                            android:tint="@color/textColor"
+                            tools:ignore="UnusedAttribute" />
+
+                        <TextView
+                            android:id="@+id/txt_logout_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:drawableStart="@drawable/logout_variant"
+                            android:drawableLeft="@drawable/logout_variant"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/colorPrimaryDark"
+                            android:fontFamily="@font/gotham"
+                            android:gravity="center_vertical"
+                            android:text="@string/profile_logout"
+                            android:textColor="@color/textColor"
+                            android:tint="@color/textColor"
+                            tools:ignore="UnusedAttribute" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

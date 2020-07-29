@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColor2"
+    tools:context=".user_actions.ActivitySettings">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="5dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                tools:ignore="UseCompoundDrawables">
+
+
+                <Button
+                    android:id="@+id/btn_manage_notifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:fontFamily="@font/gotham"
+                    android:gravity="center_vertical"
+                    android:onClick="expandableButtonNotifications"
+                    android:padding="8dp"
+                    android:text="@string/settings_manage_notifications"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                tools:ignore="UseCompoundDrawables">
+
+                <Button
+                    android:id="@+id/btn_expandableTermsC"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:fontFamily="@font/gotham"
+                    android:gravity="center_vertical"
+                    android:onClick="expandableButtonTerms"
+                    android:padding="8dp"
+                    android:text="@string/terms_amp_conditions_settings"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                tools:ignore="UseCompoundDrawables">
+
+                <Button
+                    android:id="@+id/btn_expandablePrivacyP"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:fontFamily="@font/gotham"
+                    android:gravity="center_vertical"
+                    android:onClick="expandableButtonPrivacy"
+                    android:padding="8dp"
+                    android:text="@string/user_privacy_policy"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?selectableItemBackground"
+                android:orientation="horizontal"
+                tools:ignore="UnusedAttribute">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    tools:ignore="UselessParent">
+
+                    <Button
+                        android:id="@+id/btn_expandableSendFeedback"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:fontFamily="@font/gotham"
+                        android:gravity="center_vertical"
+                        android:onClick="expandableButtonSendF"
+                        android:padding="8dp"
+                        android:text="@string/settings_send_feedback"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?selectableItemBackground"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                tools:ignore="UnusedAttribute">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    tools:ignore="UselessParent">
+
+                    <Button
+                        android:id="@+id/btn_expandableChangePassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:fontFamily="@font/gotham"
+                        android:gravity="center_vertical"
+                        android:onClick="expandableButtonChangePassword"
+                        android:padding="8dp"
+                        android:text="@string/settings_change_password"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?selectableItemBackground"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                tools:ignore="UnusedAttribute">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/gotham"
+                        android:gravity="center_vertical"
+                        android:text="@string/settings_version"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/gotham"
+                        android:gravity="center_vertical"
+                        android:text="@string/settings_version_1_0_0_lite"
+                        android:textColor="#ccc" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:baselineAligned="false"
+                android:fontFamily="@font/gotham"
+                android:gravity="center"
+                android:onClick="expandableAbout"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/settings_about_find_app"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/layout_expandableAbout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="bounce"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gotham"
+                    android:text="@string/settings_find_app_is_the_app_which_makes_it_easier_for_people_s_to_find_their_lost_items_goods_lost_found_or_missing_person_s_and_childrens_you_find_what_you_looking_for_by_going_through_the_posted_things_within_the_application_text_the_person_who_posted_the_missing_person_or_whatsoever_and_provide_proofs_to_ensure_whatever_is_posted_it_belongs_to_you_it_is_advisable_that_you_meet_up_to_the_nearest_police_station_to_get_your_items_for_security_reasons"
+                    android:textColor="@color/white" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

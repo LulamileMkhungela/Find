@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColor2">
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:baselineAligned="false"
+        android:fontFamily="@font/gotham"
+        android:gravity="center"
+        android:onClick="expandableAbout"
+        android:paddingLeft="10dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/faqs_about_find_app"
+        android:textColor="#fff" />
+
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/layout_expandableAbout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:padding="16dp"
+        app:ael_duration="400"
+        app:ael_expanded="false"
+        app:ael_interpolator="bounce"
+        app:ael_orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotham"
+            android:text="@string/faqs_find_app_is_the_app_which_makes_it_easier_for_people_s_to_find_their_lost_items_goods_lost_found_or_missing_person_s_and_childrens_you_find_what_you_looking_for_by_going_through_the_posted_things_within_the_application_text_the_person_who_posted_the_missing_person_or_whatsoever_and_provide_proofs_to_ensure_whatever_is_posted_it_belongs_to_you_it_is_advisable_that_you_meet_up_to_the_nearest_police_station_to_get_your_items_for_security_reasons"
+            android:textColor="@color/white" />
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+</RelativeLayout>
+
