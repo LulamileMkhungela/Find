@@ -36,7 +36,7 @@
         android:gravity="bottom|center_horizontal"
         android:paddingLeft="24dp"
         android:paddingRight="24dp"
-        android:text="@string/slider3_find_lost_items_lost_and_missing_people"
+        android:text="@string/slider3_topic"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -52,7 +52,7 @@
         android:minHeight="96.0dp"
         android:paddingLeft="24dp"
         android:paddingRight="24dp"
-        android:text="@string/slider3_you_will_probably_find_your_lost_items_goods_provided_if_you_provide_sufficient_details_and_you_will_also_find_lost_missing_people"
+        android:text="@string/slider3_description"
         android:textColor="@color/white"
         android:textSize="14sp" />
 
