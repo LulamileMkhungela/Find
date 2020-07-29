@@ -90,7 +90,6 @@
                     android:layout_marginTop="15dp"
                     android:layout_marginBottom="20dp"
                     android:fontFamily="@font/gotham"
-                    android:hint="@string/txt_fullnames"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white">
 
@@ -114,7 +113,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:fontFamily="@font/gotham"
-                    android:hint="@string/txt_date_of_birth"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white">
 
@@ -138,7 +136,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:fontFamily="@font/gotham"
-                    android:hint="@string/txt_cell_number"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white">
 
@@ -161,7 +158,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:fontFamily="@font/gotham"
-                    android:hint="@string/txt_location"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white">
 
