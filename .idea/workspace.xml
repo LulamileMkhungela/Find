@@ -15,64 +15,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Lulam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Lulam.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/adapters/FinderContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/adapters/FinderContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/adapters/PreferenceManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/chats/ActivityMessagesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/activities/ActivityMessagesFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/chats/ActivityNotificationsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/activities/ActivityNotificationsFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/chats/Chats.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/activities/Chats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/chats/MessageDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/chats/SafetyTipsDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/chats/SendFeedBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/activities/SendFeedBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/chats/SendMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/activities/SendMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/methods/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/methods/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/posts/WritePostActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/activities/WritePostActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ActivityHomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ActivityHomeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ActivityHomeNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ActivityHomeNavigation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ActivitySettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ActivitySettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ProfileActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/welcome_process/ActivityGetStarted.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/welcome_process/ActivityGetStarted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/card_backround.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/card_state_pressed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cardview.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hash_tag_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_get_started.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_get_started.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_safety_dialog.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_write_post.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_write_post.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/frequently_asked_questions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frequently_asked_questions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/messages_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/messages_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/notifications_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/notifications_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/send_feedback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/send_feedback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/settings_dark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/settings_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="N2K7N16509000385" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_28" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -212,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596039072587</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1596057241430</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596057241430</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -245,10 +207,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="541" y="171" key="AndroidCreateXmlResourceDialog/0.0.1366.768@0.0.1366.768" timestamp="1596051214786" />
-    <state x="335" y="0" key="CommitChangelistDialog2" timestamp="1596039066569">
+    <state x="335" y="0" key="CommitChangelistDialog2" timestamp="1596057232277">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="335" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1596039066569" />
+    <state x="335" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1596057232277" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1596036098702">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -281,10 +243,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1596036063400" />
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1596039198171">
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1596057304332">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1596039198171" />
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1596057304332" />
     <state x="102" y="50" key="caller.chooser.dialog" timestamp="1596056659654">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -297,10 +259,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="359" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1596050115762" />
-    <state x="394" y="137" key="git4idea.merge.GitPullDialog" timestamp="1596039103788">
+    <state x="394" y="137" key="git4idea.merge.GitPullDialog" timestamp="1596057269690">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="394" y="137" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1596039103788" />
+    <state x="394" y="137" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1596057269690" />
     <state x="513" y="155" key="svn.repositoryBrowser" timestamp="1596036028818">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
