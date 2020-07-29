@@ -6,10 +6,9 @@
     android:layout_height="match_parent"
     android:layout_alignParentBottom="true"
     android:background="#c8e2f5"
-    tools:context=".posts.WritePostActivity">
+    tools:context=".activities.WritePostActivity">
 
     <ProgressBar
-        android:id="@+id/pb_write_post_progressBar"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_centerInParent="true"
@@ -97,7 +96,6 @@
                     app:flRowSpacing="8dp">
 
                     <TextView
-                        android:id="@+id/tv_abuse_post"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -112,7 +110,6 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/tv_finds_post"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="4dp"
@@ -125,7 +122,6 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/tv_lost_post"
                         android:layout_width="60dp"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="4dp"
@@ -138,7 +134,6 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/tv_other_post"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="4dp"
@@ -151,7 +146,6 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/tv_missing_post"
                         android:layout_width="85dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -173,7 +167,6 @@
     </ScrollView>
 
     <TextView
-        android:id="@+id/tv_progress_post"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -205,7 +198,6 @@
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/img_chat_others_messages_options_toolbar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -222,7 +214,6 @@
                 tools:ignore="ContentDescription,RelativeOverlap" />
 
             <TextView
-                android:id="@+id/txt_chat_others_messages_userName_toolbar_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"

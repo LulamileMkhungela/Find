@@ -10,7 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f41f3770-96f7-462d-92ff-fd6db2500a89" name="Default Changelist" comment="update">
+    <list default="true" id="f41f3770-96f7-462d-92ff-fd6db2500a89" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -21,11 +21,50 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Lulam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Lulam.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/adapters/FinderContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/adapters/FinderContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/adapters/PreferenceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/chats/ActivityMessagesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/activities/ActivityMessagesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/chats/ActivityNotificationsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/activities/ActivityNotificationsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/chats/Chats.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/activities/Chats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/chats/MessageDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/chats/SafetyTipsDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/chats/SendFeedBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/activities/SendFeedBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/chats/SendMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/activities/SendMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/methods/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/methods/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/posts/WritePostActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/activities/WritePostActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ActivityHomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ActivityHomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ActivityHomeNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ActivityHomeNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ActivitySettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ActivitySettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/user_actions/ProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/welcome_process/ActivityGetStarted.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/za/lulamile/find/welcome_process/ActivityGetStarted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/card_backround.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/card_state_pressed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cardview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hash_tag_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_get_started.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_get_started.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_slider_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_slider_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_slider_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_slider_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_slider_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_slider_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_safety_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_write_post.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_write_post.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/frequently_asked_questions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frequently_asked_questions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/messages_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/messages_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/notifications_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/notifications_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/send_feedback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/send_feedback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/settings_dark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/settings_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,10 +205,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596033029867</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1596039072587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596039072587</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
@@ -178,22 +225,30 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596034859115">
+    <state x="275" y="22" key="#Notifications" timestamp="1596039275329">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1596034859115" />
+    <state x="275" y="22" key="#Notifications/0.0.1366.768@0.0.1366.768" timestamp="1596039275329" />
+    <state x="488" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1596055357161">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="488" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1596055357161" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596051485490">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1596051485490" />
     <state x="263" y="119" key="AndroidCreateResourceFileDialog" timestamp="1596019184320">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1596019184320" />
-    <state x="541" y="171" key="AndroidCreateXmlResourceDialog" timestamp="1596034255055">
+    <state x="541" y="171" key="AndroidCreateXmlResourceDialog" timestamp="1596051214786">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="541" y="171" key="AndroidCreateXmlResourceDialog/0.0.1366.768@0.0.1366.768" timestamp="1596034255055" />
-    <state x="335" y="0" key="CommitChangelistDialog2" timestamp="1596033005565">
+    <state x="541" y="171" key="AndroidCreateXmlResourceDialog/0.0.1366.768@0.0.1366.768" timestamp="1596051214786" />
+    <state x="335" y="0" key="CommitChangelistDialog2" timestamp="1596039066569">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="335" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1596033005565" />
+    <state x="335" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1596039066569" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1596036098702">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -206,38 +261,46 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="0" key="Github.UntrackedFilesDialog/0.0.1366.768@0.0.1366.768" timestamp="1596036145231" />
-    <state width="1306" height="320" key="GridCell.Tab.0.bottom" timestamp="1596020417663">
+    <state width="1323" height="352" key="GridCell.Tab.0.bottom" timestamp="1596054371803">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1306" height="320" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1596020417663" />
-    <state width="1306" height="320" key="GridCell.Tab.0.center" timestamp="1596020417662">
+    <state width="1323" height="352" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1596054371803" />
+    <state width="1323" height="352" key="GridCell.Tab.0.center" timestamp="1596054371803">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1306" height="320" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1596020417662" />
-    <state width="1306" height="320" key="GridCell.Tab.0.left" timestamp="1596020417661">
+    <state width="1323" height="352" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1596054371803" />
+    <state width="1323" height="352" key="GridCell.Tab.0.left" timestamp="1596054371803">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1306" height="320" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1596020417661" />
-    <state width="1306" height="320" key="GridCell.Tab.0.right" timestamp="1596020417662">
+    <state width="1323" height="352" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1596054371802" />
+    <state width="1323" height="352" key="GridCell.Tab.0.right" timestamp="1596054371803">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1306" height="320" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1596020417662" />
+    <state width="1323" height="352" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1596054371803" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1596036063400">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1596036063400" />
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1596039198171">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1596039198171" />
+    <state x="102" y="50" key="caller.chooser.dialog" timestamp="1596056659654">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="102" y="50" key="caller.chooser.dialog/0.0.1366.768@0.0.1366.768" timestamp="1596056659654" />
     <state x="499" y="142" key="chooseDestDirectoryDialog" timestamp="1596038290404">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="499" y="142" key="chooseDestDirectoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1596038290404" />
-    <state x="359" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596018566941">
+    <state x="359" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596050115762">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="359" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1596018566941" />
-    <state x="394" y="137" key="git4idea.merge.GitPullDialog" timestamp="1596033079123">
+    <state x="359" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1596050115762" />
+    <state x="394" y="137" key="git4idea.merge.GitPullDialog" timestamp="1596039103788">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="394" y="137" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1596033079123" />
+    <state x="394" y="137" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1596039103788" />
     <state x="513" y="155" key="svn.repositoryBrowser" timestamp="1596036028818">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

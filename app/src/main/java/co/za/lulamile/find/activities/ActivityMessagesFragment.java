@@ -1,4 +1,4 @@
-package co.za.lulamile.find.chats;
+package co.za.lulamile.find.activities;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,6 @@ import co.za.lulamile.find.R;
 public class ActivityMessagesFragment extends Fragment {
 
     public ActivityMessagesFragment() {
-        // Required empty public constructor
     }
 
     @Override

@@ -50,9 +50,11 @@ import co.za.lulamile.find.methods.UserDetails;
 import co.za.lulamile.find.user_actions.ActivityHomeNavigation;
 import de.hdodenhof.circleimageview.CircleImageView;
 
+
 public class ActivityGetStarted extends AppCompatActivity {
 
-    private static final String TAG = "ActivityGetStart";
+
+    private static final String TAG = "ActivityGetStarted";
     private static final int REQUEST_CODE_ICON = 19;
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     EditText etDateOfBirth;
@@ -77,7 +79,7 @@ public class ActivityGetStarted extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_get_started);
-        setTitle("Create Profile");
+        setTitle("Get Started");
 
         Button create_profile = findViewById(R.id.btn_create_profile_get_started);
         profileImage = findViewById(R.id.image_getting_started);
@@ -111,28 +113,33 @@ public class ActivityGetStarted extends AppCompatActivity {
             this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
             openCalendar();
         });
+
         FirebaseAuth auth = FirebaseAuth.getInstance();
         if (auth.getCurrentUser() != null)
             email = auth.getCurrentUser().getEmail();
-
         Intent intent = getIntent();
         if (intent != null && intent.hasExtra("EditProfile")) {
+
             if ("yes".equals(intent.getStringExtra("EditProfile"))) {
                 UsersDetailsRef.document(email).get().addOnSuccessListener(documentSnapshot -> {
+
                     if (documentSnapshot != null) {
+
                         UserDetails userInfo = documentSnapshot.toObject(UserDetails.class);
                         if (userInfo != null) {
                             etFullName.setText(userInfo.getFullName());
                             etDateOfBirth.setText(userInfo.getDateOfBirth());
                             etCellphone.setText(userInfo.getCellphone());
                             etLocated.setText(userInfo.getLocated());
+
                             if (userInfo.getGender().equals("Female")) {
                                 rgGender.findViewById(R.id.rb_female).performClick();
                             } else {
+
                                 rgGender.findViewById(R.id.rb_male).performClick();
                             }
                             url = userInfo.getImageUrl();
-                            Picasso.get().load(url).error(R.drawable.default_pic).into(profileImage);
+                            Picasso.get().load(url).error(R.drawable.ic_person).into(profileImage);
                         }
                     }
                 });
@@ -159,36 +166,36 @@ public class ActivityGetStarted extends AppCompatActivity {
         String gender = onRadioButtonClicked(rgGender);
 
         if (fullName.length() < 6) {
-            Toast.makeText(this, "Oops,Please insert  your fullnames", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Whoops,Please insert fullname", Toast.LENGTH_SHORT).show();
             etFullName.requestFocus();
             return;
         }
 
         if (located.length() < 5) {
-            Toast.makeText(this, "Oops,Please insert your Location", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Whoops,Please insert your Location", Toast.LENGTH_SHORT).show();
             etLocated.requestFocus();
             return;
         }
 
         if (dateOfBirth.isEmpty()) {
-            Toast.makeText(this, "Oops,Please insert Date of Birth", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Whoops,Please insert date of birth", Toast.LENGTH_SHORT).show();
             etDateOfBirth.requestFocus();
             return;
         }
         if (dob == null || dob.after(limit)) {
-            Toast.makeText(this, "Oops,You must be at least 16 years to use the Find App", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Oops,Please you must be at least 16 years to use Find App", Toast.LENGTH_SHORT).show();
             etDateOfBirth.requestFocus();
             return;
         }
 
         if (cellphoneNumber.length() < 10) {
-            Toast.makeText(this, "Oops,Please insert 10 digits of cellphone number", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Whoops,Please insert 10 digits of cellphone number", Toast.LENGTH_SHORT).show();
             etCellphone.requestFocus();
             return;
         }
 
         if (gender == null || gender.isEmpty()) {
-            Toast.makeText(this, "Oops,Please select your gender", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Whoops,Please select your gender", Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -283,7 +290,7 @@ public class ActivityGetStarted extends AppCompatActivity {
                     url = String.valueOf(downloadUri);
                     UsersDetailsRef.document(email).update("imageUrl", url);
                     progressView.setVisibility(View.GONE);
-                    showToast("Hooray,Your Profile Has Been Updated Succesful");
+                    showToast("Hooray,Your profile has been updated succesfully!");
                     Intent i = new Intent(ActivityGetStarted.this, ActivityHomeNavigation.class);
                     startActivity(i);
                     finish();
@@ -314,7 +321,6 @@ public class ActivityGetStarted extends AppCompatActivity {
     public Double RoundOff(Double val, int decimals) {
         return new BigDecimal(val.toString()).setScale(decimals, RoundingMode.HALF_UP).doubleValue();
     }
-
     public void buttonGetStartedPrivacyPolicy(View view) {
         privacyButton = findViewById(R.id.btn_privacyPolicy_get_started);
         privacyButton.setOnClickListener(v -> {
@@ -352,3 +358,5 @@ public class ActivityGetStarted extends AppCompatActivity {
         datePickerDialog.show();
     }
 }
+
+

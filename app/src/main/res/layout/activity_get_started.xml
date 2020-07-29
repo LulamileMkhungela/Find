@@ -37,7 +37,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/gotham"
                     android:gravity="center"
-                    android:text="Getting Started"
+                    android:text="@string/tex_getting_started"
                     android:textColor="@color/white"
                     android:textSize="32sp"
                     tools:ignore="MissingPrefix" />
@@ -57,8 +57,8 @@
                         android:scaleType="centerCrop"
                         android:padding="10dp"
                         android:src="@drawable/default_pic"
-                        android:tint="@color/gray"
-                        app:civ_border_color="@color/gray"
+                        android:tint="@color/white"
+                        app:civ_border_color="@color/white"
                         app:civ_border_width="1dp" />
 
                     <ProgressBar
@@ -90,7 +90,7 @@
                     android:layout_marginTop="15dp"
                     android:layout_marginBottom="20dp"
                     android:fontFamily="@font/gotham"
-                    android:hint="FullNames"
+                    android:hint="@string/txt_fullnames"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white">
 
@@ -101,7 +101,9 @@
                         android:fontFamily="@font/gotham"
                         android:inputType="text"
                         android:maxLength="25"
+                        android:hint="@string/txt_fullnames"
                         android:textColor="@color/white"
+                        android:importantForAutofill="no"
                         android:textColorHint="@color/white" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -112,7 +114,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:fontFamily="@font/gotham"
-                    android:hint="Date of birth"
+                    android:hint="@string/txt_date_of_birth"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white">
 
@@ -123,9 +125,10 @@
                         android:fontFamily="@font/gotham"
                         android:inputType="date"
                         android:maxLength="25"
+                        android:hint="@string/txt_date_of_birth"
                         android:textColor="@color/white"
                         android:textColorHint="@color/white"
-                        tools:ignore="Autofill,LabelFor" />
+                        android:importantForAutofill="no" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -135,7 +138,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:fontFamily="@font/gotham"
-                    android:hint="Cell Number"
+                    android:hint="@string/txt_cell_number"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white">
 
@@ -144,8 +147,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/gotham"
-                        android:inputType="textEmailAddress"
+                        android:hint="@string/txt_cell_number"
+                        android:importantForAutofill="no"
                         android:textColor="@color/white"
+                        android:inputType="number"
                         android:textColorHint="@color/white" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -156,8 +161,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     android:fontFamily="@font/gotham"
-                    android:hint="Location"
-
+                    android:hint="@string/txt_location"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white">
 
@@ -166,9 +170,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/gotham"
-                        android:inputType="textPostalAddress"
+                        android:hint="@string/txt_location"
+                        android:importantForAutofill="no"
                         android:textColor="@color/white"
-
+                        android:inputType="textCapWords"
                         android:textColorHint="@color/white" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -177,8 +182,6 @@
                     android:id="@+id/rg_gender_get_started"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/et_date_of_birth_get_started"
-                    android:layout_centerHorizontal="true"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:layout_marginBottom="7dp"
@@ -226,7 +229,7 @@
                         android:fontFamily="@font/gotham"
                         android:paddingLeft="8dp"
                         android:onClick="onClickTerms"
-                        android:text="Terms and Use"
+                        android:text="@string/terms_amp_conditions_settings"
                         android:textAllCaps="false"
                         android:textColor="@color/white"
                         android:paddingRight="8dp"
@@ -237,7 +240,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:fontFamily="@font/gotham"
-                        android:text="&amp;"
+                        android:text="@string/txt_amp"
                         android:textColor="@color/white" />
 
                     <Button
@@ -252,7 +255,7 @@
                         android:paddingLeft="8dp"
                         android:fontFamily="@font/gotham"
                         android:onClick="buttonGetStartedPrivacyPolicy"
-                        android:text="Privacy Policy"
+                        android:text="@string/user_privacy_policy"
                         android:textAllCaps="false"
                         android:textColor="@color/white"
                         android:paddingRight="8dp"
@@ -270,7 +273,7 @@
                     android:background="@drawable/button_shape_white"
                     android:fontFamily="@font/gotham"
                     android:padding="10dp"
-                    android:text="Save"
+                    android:text="@string/btn_save"
                     android:textAllCaps="false"
 
                     android:textColor="#FFF"

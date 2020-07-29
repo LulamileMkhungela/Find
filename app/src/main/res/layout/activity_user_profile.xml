@@ -48,8 +48,9 @@
                 android:layout_marginTop="30dp"
                 android:elevation="4dp"
                 android:src="@drawable/default_pic"
-                app:civ_border_width="3.5dp"
-                app:civ_border_color="@color/gray"
+                android:tint="@color/white"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="1.5dp"
                 tools:targetApi="lollipop" />
 
             <TextView

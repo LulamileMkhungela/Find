@@ -2,9 +2,7 @@ package co.za.lulamile.find.user_actions;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -16,10 +14,10 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.squareup.picasso.Picasso;
 
 import co.za.lulamile.find.R;
+import co.za.lulamile.find.activities.ActivityMessagesFragment;
+import co.za.lulamile.find.activities.ActivityNotificationsFragment;
+import co.za.lulamile.find.activities.WritePostActivity;
 import co.za.lulamile.find.adapters.FinderContract;
-import co.za.lulamile.find.chats.ActivityMessagesFragment;
-import co.za.lulamile.find.chats.ActivityNotificationsFragment;
-import co.za.lulamile.find.posts.WritePostActivity;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 
@@ -28,9 +26,9 @@ public class ActivityHomeNavigation extends AppCompatActivity {
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private CircleImageView profilePic;
     private String email;
-    TextView textHome;
-    EditText searchField;
-    private ImageView searchIcon, closeSearch;
+
+    public ActivityHomeNavigation() {
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

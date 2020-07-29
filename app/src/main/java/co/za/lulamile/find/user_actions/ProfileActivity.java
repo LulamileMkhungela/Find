@@ -19,14 +19,13 @@ import com.squareup.picasso.Picasso;
 
 import co.za.lulamile.find.BuildConfig;
 import co.za.lulamile.find.R;
+import co.za.lulamile.find.activities.Chats;
 import co.za.lulamile.find.adapters.FinderContract;
-import co.za.lulamile.find.chats.Chats;
 import co.za.lulamile.find.methods.UserDetails;
 import co.za.lulamile.find.welcome_process.ActivityGetStarted;
 import co.za.lulamile.find.welcome_process.LoginActivity;
 
 public class ProfileActivity extends Activity {
-
 
     //Declaring Variables
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
@@ -106,7 +105,7 @@ public class ProfileActivity extends Activity {
             try {
                 Intent shareIntent = new Intent(Intent.ACTION_SEND);
                 shareIntent.setType("text/plain");
-                shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Find App ");
+                shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Find App");
                 String shareMessage = "Hey \n\nTry this awesome App to find Lost/found or items. " +
                         "Finding Things Or People Made Easy. \n\n Link to App: ";
                 shareMessage = shareMessage + "co.za.lulamile.find" +
@@ -149,7 +148,7 @@ public class ProfileActivity extends Activity {
                     oLocation.setText(userInfo.getLocated());
                     Gender.setText(userInfo.getGender());
                     Glide.with(ProfileActivity.this.getApplicationContext()).load(userInfo.getImageUrl())
-                            .thumbnail(0.2f).error(R.drawable.ic_person).into(profileImage);
+                            .thumbnail(0.2f).error(R.drawable.default_pic).into(profileImage);
 
                     chat.setOnClickListener(v -> {
                         Intent intent = new Intent(this, ChatsMessages.class);
@@ -166,7 +165,9 @@ public class ProfileActivity extends Activity {
     }
 
     private void loadMyProfile() {
-        chat.setOnClickListener((View v) -> startActivity(new Intent(this, Chats.class)));
+        chat.setOnClickListener(v -> {
+            startActivity(new Intent(this, Chats.class));
+        });
         usersDetailsRef.document(email).get().addOnSuccessListener(documentSnapshot -> {
             if (documentSnapshot != null) {
                 UserDetails userInfo = documentSnapshot.toObject(UserDetails.class);
@@ -177,7 +178,7 @@ public class ProfileActivity extends Activity {
                     Email.setText(email);
                     Location.setText(userInfo.getLocated());
                     Gender.setText(userInfo.getGender());
-                    Picasso.get().load(userInfo.getImageUrl()).error(R.drawable.ic_person).into(profileImage);
+                    Picasso.get().load(userInfo.getImageUrl()).error(R.drawable.default_pic).into(profileImage);
                 }
             }
             progressBar.setVisibility(View.GONE);

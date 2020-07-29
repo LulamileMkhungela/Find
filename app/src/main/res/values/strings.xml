@@ -29,10 +29,8 @@
     <string name="user_privacy_policy">Privacy Policy</string>
     <string name="faqs_about_find_app">About Find App</string>
     <string name="faqs_find_app_is_the_app_which_makes_it_easier_for_people_s_to_find_their_lost_items_goods_lost_found_or_missing_person_s_and_childrens_you_find_what_you_looking_for_by_going_through_the_posted_things_within_the_application_text_the_person_who_posted_the_missing_person_or_whatsoever_and_provide_proofs_to_ensure_whatever_is_posted_it_belongs_to_you_it_is_advisable_that_you_meet_up_to_the_nearest_police_station_to_get_your_items_for_security_reasons">Find App is the app which makes it easier for people(s) to find their lost items/goods,lost/found or missing person(s) and childrens.You find what you looking for by going through the posted things within the application,text the person who posted the missing person or whatsoever and provide proofs to ensure whatever is posted it belongs to you.It is advisable that you meet up to the nearest police station to get your items for security reasons</string>
-    <string name="faqs2_about_find_app">About Find App</string>
     <string name="slider1_topic">Use Find App To Make A Better World</string>
     <string name="slider1_description">Help us to find others and returning things back to their actual owners,take a step with us to make a better world.</string>
-    <string name="slider2_topic">Finding Things Or People Made Easy</string>
     <string name="slider3_topic">Find Lost Items,Lost and Missing People</string>
     <string name="slider3_description">You will probably find your lost items/goods provided if you provide sufficient details and you will also find lost/missing people.</string>
     <string name="profile_logout">Logout</string>
@@ -58,7 +56,6 @@
     <string name="writepost_lost">#Lost</string>
     <string name="writepost_other">#Other</string>
     <string name="writepost_missing">#Missing</string>
-    <string name="messages_this_is_the_message_received_by_the_user_by_other_users">This is the message received by the user by other users.</string>
     <string name="messages__11hrs_ago">11hrs ago</string>
     <string name="messages_apple_macbook">Apple MacBook</string>
     <string name="notifications__11hrs_ago">11hrs ago</string>
@@ -77,4 +74,17 @@
     <string name="hello_world_notification">Hello World Notification</string>
     <string name="find_app">Find App</string>
     <string name="messages_this_is_the_messege_received_by_the_user_by_other_users">Messages this is the messege received by the user by other users</string>
+    <string name="_18">18</string>
+    <string name="this_is_status">This is Status</string>
+    <string name="_5_comments">5 comments</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+    <string name="tex_getting_started">Getting Started</string>
+    <string name="txt_fullnames">FullNames</string>
+    <string name="txt_date_of_birth">Date of birth</string>
+    <string name="txt_cell_number">Cell Number</string>
+    <string name="txt_location">Location</string>
+    <string name="btn_save">Save</string>
+    <string name="txt_amp"><![CDATA[&]]></string>
 </resources>

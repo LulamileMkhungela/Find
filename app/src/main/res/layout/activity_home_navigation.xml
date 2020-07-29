@@ -69,6 +69,7 @@
             android:focusable="true"
             android:src="@drawable/default_pic"
             app:civ_border_color="@color/white"
+            android:tint="@color/white"
             app:civ_border_width="1.5dp"
             tools:ignore="VectorDrawableCompat" />
     </RelativeLayout>
@@ -92,7 +93,6 @@
 
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/imgView_proPic"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center_horizontal"
@@ -106,18 +106,15 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
-                android:layout_toEndOf="@+id/imgView_proPic"
-                android:layout_toRightOf="@+id/imgView_proPic"
                 android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-medium"
-                    android:text="Loading"
+                    android:text="@string/profile_loading"
                     android:textColor="@color/black"
                     android:textSize="17sp" />
 
@@ -125,7 +122,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
-                    android:text="11 hrs"
+                    android:text="@string/messages__11hrs_ago"
                     android:textColor="@color/gray"
                     android:textSize="13sp" />
 
@@ -141,7 +138,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="15dp"
             android:layout_marginRight="15dp"
-            android:text="This is Status"
+            android:text="@string/this_is_status"
             android:textColor="@color/black"
             android:textSize="16sp" />
 
@@ -154,7 +151,8 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:src="@drawable/img_post2"
-            android:visibility="visible" />
+            android:visibility="visible"
+            tools:ignore="ContentDescription" />
 
         <RelativeLayout
             android:id="@+id/rellay2"
@@ -170,7 +168,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                tools:ignore="UseCompoundDrawables">
+                tools:ignore="RelativeOverlap,UseCompoundDrawables">
 
                 <ImageView
                     android:layout_width="15dp"
@@ -183,7 +181,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
                     android:layout_marginLeft="5dp"
-                    android:text="18"
+                    android:text="@string/_18"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
 
@@ -194,9 +192,10 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
-                android:text="5 comments"
+                android:text="@string/_5_comments"
                 android:textColor="@color/black"
-                android:textSize="13sp" />
+                android:textSize="13sp"
+                tools:ignore="RelativeOverlap" />
 
         </RelativeLayout>
 
@@ -242,7 +241,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginLeft="10dp"
                         android:fontFamily="sans-serif-medium"
-                        android:text="Like"
+                        android:text="@string/like"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
 
@@ -259,7 +258,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    tools:ignore="UselessParent">
 
                     <ImageView
                         android:layout_width="18dp"
@@ -275,7 +275,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginLeft="10dp"
                         android:fontFamily="sans-serif-medium"
-                        android:text="Comment"
+                        android:text="@string/comment"
                         android:textColor="@color/black"
                         android:textSize="13sp" />
 
@@ -308,8 +308,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:fontFamily="sans-serif-medium"
-                        android:text="Share"
+                        android:layout_marginStart="10dp"
                         android:textColor="@color/black"
+                        android:text="@string/share"
                         android:textSize="13sp" />
 
                 </LinearLayout>

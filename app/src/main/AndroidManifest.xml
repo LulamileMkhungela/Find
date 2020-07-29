@@ -48,11 +48,11 @@
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait" />
         <activity android:name=".user_actions.ProfileActivity" />
-        <activity android:name=".chats.Chats" />
+        <activity android:name=".activities.Chats" />
         <activity android:name=".user_actions.FrequentlyAskedQuestions" />
-        <activity android:name=".chats.SendFeedBack" />
+        <activity android:name=".activities.SendFeedBack" />
         <activity
-            android:name=".posts.WritePostActivity"
+            android:name=".activities.WritePostActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".welcome_process.ActivityGetStarted">
             <intent-filter>
@@ -76,7 +76,6 @@
         <activity
             android:name=".user_actions.ActivityHomeNavigation"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".chats.SafetyTipsDialog" />
         <activity android:name=".user_actions.ActivitySettings" />
     </application>
 

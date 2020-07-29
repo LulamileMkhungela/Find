@@ -1,4 +1,4 @@
-package co.za.lulamile.find.chats;
+package co.za.lulamile.find.activities;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -39,8 +39,8 @@ public class SendMail extends AsyncTask<Void, Void, Void> {
     @Override
     protected void onPreExecute() {
         super.onPreExecute();
-        //Showing progress dialog while sending txt_cell_number_other_users
-        progressDialog = ProgressDialog.show(context, "Sending Your Feedback", "Whoa! Please Wait...", false, false);
+        //Showing progress dialog while sending
+        progressDialog = ProgressDialog.show(context, "Whoa,Please wait Sending Your Feedback", "Whoa! Please Wait...", false, false);
     }
 
     @Override
@@ -49,7 +49,7 @@ public class SendMail extends AsyncTask<Void, Void, Void> {
         //Dismissing the progress dialog
         progressDialog.dismiss();
         //Showing a success message
-        Toast.makeText(context, "Message Sent", Toast.LENGTH_LONG).show();
+        Toast.makeText(context, "Hooray,Message Sent succesfully", Toast.LENGTH_LONG).show();
     }
 
     @Override
@@ -91,7 +91,7 @@ public class SendMail extends AsyncTask<Void, Void, Void> {
         return null;
     }
 
-    /// please note i put wrong credentials for Gmail account for security reasons
+    /// please note i put wrong credentials for Gmail account for security reasons,you may put yours to test this send feedback feature
     public static class Config {
         public static final String EMAIL = "mkhungela@gmail.com";
         public static final String PASSWORD = "Lulamz2020";

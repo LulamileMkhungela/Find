@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.github.aakira.expandablelayout.ExpandableRelativeLayout;
 
 import co.za.lulamile.find.R;
-import co.za.lulamile.find.chats.SendFeedBack;
+import co.za.lulamile.find.activities.SendFeedBack;
 import co.za.lulamile.find.welcome_process.ActivityForgotPassword;
 
 public class ActivitySettings extends AppCompatActivity {
@@ -25,7 +25,7 @@ public class ActivitySettings extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.settings_dark);
+        setContentView(R.layout.settings_activity);
         setTitle("Settings");
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);

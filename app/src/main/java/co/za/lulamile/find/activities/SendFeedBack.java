@@ -1,4 +1,4 @@
-package co.za.lulamile.find.chats;
+package co.za.lulamile.find.activities;
 
 import android.content.Context;
 import android.content.Intent;

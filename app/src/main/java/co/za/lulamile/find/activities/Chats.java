@@ -1,4 +1,4 @@
-package co.za.lulamile.find.chats;
+package co.za.lulamile.find.activities;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -7,7 +7,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import co.za.lulamile.find.R;
-
 public class Chats extends AppCompatActivity {
 
     @Override
