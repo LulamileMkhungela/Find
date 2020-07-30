@@ -1,3 +1,4 @@
+// Refactor component structure
 package co.za.lulamile.find.chats;
 
 import com.google.firebase.firestore.ServerTimestamp;
