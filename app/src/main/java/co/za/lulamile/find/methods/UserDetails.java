@@ -1,3 +1,4 @@
+// Refactor component structure
 package co.za.lulamile.find.methods;
 
 public class UserDetails {
