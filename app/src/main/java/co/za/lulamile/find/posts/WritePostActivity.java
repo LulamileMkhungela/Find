@@ -1,3 +1,4 @@
+// Refactor component structure
 package co.za.lulamile.find.posts;
 
 import android.os.Bundle;
