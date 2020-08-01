@@ -1,3 +1,4 @@
+// Refactor component structure
 package co.za.lulamile.find.welcome_process;
 
 import android.content.Intent;
