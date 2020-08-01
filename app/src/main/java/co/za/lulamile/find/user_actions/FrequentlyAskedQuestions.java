@@ -1,3 +1,4 @@
+// Refactor component structure
 package co.za.lulamile.find.user_actions;
 
 import android.os.Bundle;
