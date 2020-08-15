@@ -1,3 +1,4 @@
+<!-- Layout view structure -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="StringFormatInvalid">
     <string name="app_name">Find</string>
     <string name="next">NEXT</string>
