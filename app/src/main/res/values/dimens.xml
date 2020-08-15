@@ -1,3 +1,4 @@
+<!-- Layout view structure -->
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="dots_height">30dp</dimen>
