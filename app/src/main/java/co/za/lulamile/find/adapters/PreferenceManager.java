@@ -1,4 +1,5 @@
 // Refactor component structure
+// Refactor component structure
 package co.za.lulamile.find.adapters;
 
 import android.annotation.SuppressLint;
