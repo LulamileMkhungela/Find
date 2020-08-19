@@ -1,4 +1,5 @@
 // Refactor component structure
+// Refactor component structure
 package co.za.lulamile.find.user_actions;
 
 import androidx.appcompat.app.AppCompatActivity;
