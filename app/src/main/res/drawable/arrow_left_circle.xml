@@ -1,4 +1,5 @@
 <!-- Layout view structure -->
+<!-- Layout view structure -->
 <!-- drawable/arrow_left_circle.xml -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
